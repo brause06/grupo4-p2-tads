@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Data files ###
+*.csv
+credits.csv
+movies_metadata.csv
+ratings_1mm.csv
