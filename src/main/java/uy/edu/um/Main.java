@@ -88,7 +88,6 @@ public class Main {
         long startTimeTotal = System.currentTimeMillis();   // empiezo a medir el tiempo
         
         try {
-            // Cargo todo en orden (las calificaciones van al final porque necesitan que las peliculas ya existan)
             cargador.cargarPeliculas(rutaMoviesMetadata);
             cargador.cargarCreditos(rutaCredits);
             cargador.cargarCalificaciones(rutaRatings);
